@@ -24,3 +24,17 @@ This script depends on the following Python libraries:
 
 - pandas
 - time
+
+## Functions
+
+The script contains several functions that calculate and display statistics on the bikeshare data:
+
+- `time_stats(df)`: Displays statistics on the most frequent times of travel.
+
+- `station_stats(df)`: Displays statistics on the most popular stations and trip.
+
+- `trip_duration_stats(df)`: Displays statistics on the total and average trip duration.
+
+- `user_stats(df)`: Displays statistics on bikeshare users.
+
+- `print_raw_lines(df)`: Prints raw lines of data.
