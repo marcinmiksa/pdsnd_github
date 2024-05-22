@@ -1,6 +1,5 @@
 import time
 import pandas as pd
-import numpy as np
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -295,8 +294,8 @@ def print_raw_lines(df):
         except ValueError:
             print('\n!INVALID INPUT!\n')
             return
-    for line in df.head(limit).iterrows():
-        print(line)
+    json_data = df.head(limit).to_json(orient='records', date_format='iso')
+    print(json_data)
 
 
 def main():
