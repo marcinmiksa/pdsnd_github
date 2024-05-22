@@ -38,3 +38,7 @@ The script contains several functions that calculate and display statistics on t
 - `user_stats(df)`: Displays statistics on bikeshare users.
 
 - `print_raw_lines(df)`: Prints raw lines of data.
+
+## Output
+
+The script outputs the calculated statistics to the console. It also provides an option to view raw data.
