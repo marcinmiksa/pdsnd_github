@@ -1,17 +1,26 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Explore US Bikeshare Data
 
-### Date created
-Include the date you created this project and README file.
+This project is a Python script named `bikeshare_2.py` that analyzes bikeshare data.
 
-### Project Title
-Replace the Project Title
+## Purpose
 
-### Description
-Describe what your project is about and what it does
+The purpose of this script is to explore data related to bike share systems for three major cities in the United
+States: 
+- Chicago, 
+- New York City
+- Washington
 
-### Files used
-Include the files used
+It imports data and answers interesting questions about it by computing
+descriptive statistics.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## How to Run
 
+To run this script, you need Python installed on your machine. You can run the script in your terminal by navigating to
+the directory containing `bikeshare_2.py` and typing `python bikeshare_2.py`.
+
+## Dependencies
+
+This script depends on the following Python libraries:
+
+- pandas
+- time
